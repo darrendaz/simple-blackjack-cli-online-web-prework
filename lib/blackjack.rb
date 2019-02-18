@@ -54,7 +54,6 @@ def hit?(card_total)
 end
 
 def invalid_command
-  # code invalid_command here
   puts "Please enter a valid command"
   prompt_user
 end
@@ -64,7 +63,6 @@ end
 #####################################################
 
 def runner
-  # code runner here
   welcome
   card_total = initial_round
   until card_total > 21
