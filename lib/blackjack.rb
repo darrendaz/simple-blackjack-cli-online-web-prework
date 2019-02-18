@@ -73,7 +73,8 @@ def runner
     hit?(card_total)
     display_card_total(card_total)
     if card_total > 21
-      lose == false
+      lose == true
+    end
   end
   end_game(card_total)
 end
