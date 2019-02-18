@@ -21,8 +21,7 @@ end
 
 def get_user_input
   # code #get_user_input here
-  input = gets.chomp
-  return input
+  gets.chomp
 
 end
 
@@ -43,7 +42,7 @@ end
 def hit?(card_total)
   # code hit? here
   prompt_user
-  get_user_input
+  input = get_user_input
   
   if input == 'h'
     card_total += deal_card
